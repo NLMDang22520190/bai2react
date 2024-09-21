@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import pictureSample1 from "./assets/36.jpg";
 import "./index.css";
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
               </svg>
             </div>
           </div>
-
+          {/* NavBtn */}
           <div className="bg-bluetittlebar h-12 flex item-center content-center">
             <button className="text-xl text-white bg-transparent w-1/12 border border-x-white">
               NÓNG
@@ -64,8 +65,237 @@ function App() {
             </button>
           </div>
 
-          <div className="flex items-center bg-bluetittlebar h-screen">
-            <div className="w-3/5 bg-bubble-gum h-full"></div>
+          <div className="flex items-center h-screen">
+            <div className="w-3/5  h-full">
+              {/* Main article */}
+              <div className="mt-4">
+                <img
+                  className="mb-2 h-64 w-full rounded-md"
+                  src={pictureSample1}
+                ></img>
+                <label className="text-bluetext text-wrap text-2xl">
+                  'Rốn lũ' Tân Hoá ngập tới 2m, hàng trăm hộ dân lên nhà phao
+                  tránh trú
+                </label>
+                <div className="flex items-center h-6 mt-2 gap-2">
+                  <img className="h-6" src={reactLogo}></img>
+                  <label>1 giờ</label>
+                  <label>8 liên quan</label>
+                </div>
+              </div>
+              {/* Secondary article */}
+              <div className="grid grid-cols-3  h-48 mt-2 gap-2">
+                <div>
+                  <img className="h-1/2 rounded" src={pictureSample1}></img>
+                  <label className="text-warp">
+                    Thống nhất phương án trình Chính phủ lịch nghĩ lễ, Tết năm
+                    2025
+                  </label>
+                  <div className="flex items-center gap-2 mt-1">
+                    <img className="h-4" src={reactLogo}></img>
+                    <label className="text-xs">1 giờ</label>
+                  </div>
+                </div>
+                <div>
+                  <img className="h-1/2 rounded" src={pictureSample1}></img>
+                  <label className="text-warp">
+                    Thống nhất phương án trình Chính phủ lịch nghĩ lễ, Tết năm
+                    2025
+                  </label>
+                  <div className="flex items-center gap-2 mt-1">
+                    <img className="h-4" src={reactLogo}></img>
+                    <label className="text-xs">1 giờ</label>
+                  </div>
+                </div>
+                <div>
+                  <img className="h-1/2 rounded" src={pictureSample1}></img>
+                  <label className="text-warp">
+                    Thống nhất phương án trình Chính phủ lịch nghĩ lễ, Tết năm
+                    2025
+                  </label>
+                  <div className="flex items-center gap-2 mt-1">
+                    <img className="h-4" src={reactLogo}></img>
+                    <label className="text-xs">1 giờ</label>
+                  </div>
+                </div>
+              </div>
+              {/* third article */}
+              <div className="flex flex-col gap-2">
+                <div className="border border-metal border-opacity-15 h-0"></div>
+                <div className="flex items-center h-20 gap-2 ">
+                  <img className="h-full rounded" src={pictureSample1}></img>
+                  <div className="h-full">
+                    <lable className="text-warp text-sm">
+                      Kê biên, thu giữ bộ sưu tập đồng hồ xa xỉ và khối tài sản
+                      "khủng" của cựu Bí thư Tình uỷ Bến Tre.
+                    </lable>
+                    <div className="flex items-center gap-2 mt-1">
+                      <img className="h-4" src={reactLogo}></img>
+                      <lable className="text-xs">6 giờ</lable>
+                      <lable className="text-xs">20 liên quan</lable>
+                    </div>
+                  </div>
+                </div>
+                <div className="border border-metal border-opacity-15 h-0"></div>
+
+                <div className="flex items-center h-20 gap-2 ">
+                  <img className="h-full rounded" src={pictureSample1}></img>
+                  <div className="h-full">
+                    <lable className="text-warp text-sm">
+                      Kê biên, thu giữ bộ sưu tập đồng hồ xa xỉ và khối tài sản
+                      "khủng" của cựu Bí thư Tình uỷ Bến Tre.
+                    </lable>
+                    <div className="flex items-center gap-2 mt-1">
+                      <img className="h-4" src={reactLogo}></img>
+                      <lable className="text-xs">6 giờ</lable>
+                      <lable className="text-xs">20 liên quan</lable>
+                    </div>
+                  </div>
+                </div>
+                <div className="border border-metal border-opacity-15 h-0"></div>
+
+                <div className="flex items-center h-20 gap-2 ">
+                  <img className="h-full rounded" src={pictureSample1}></img>
+                  <div className="h-full">
+                    <lable className="text-warp text-sm">
+                      Kê biên, thu giữ bộ sưu tập đồng hồ xa xỉ và khối tài sản
+                      "khủng" của cựu Bí thư Tình uỷ Bến Tre.
+                    </lable>
+                    <div className="flex items-center gap-2 mt-1">
+                      <img className="h-4" src={reactLogo}></img>
+                      <lable className="text-xs">6 giờ</lable>
+                      <lable className="text-xs">20 liên quan</lable>
+                    </div>
+                  </div>
+                </div>
+                <div className="border border-metal border-opacity-15 h-0"></div>
+
+                <div className="flex items-center h-20 gap-2 ">
+                  <img className="h-full rounded" src={pictureSample1}></img>
+                  <div className="h-full">
+                    <lable className="text-warp text-sm">
+                      Kê biên, thu giữ bộ sưu tập đồng hồ xa xỉ và khối tài sản
+                      "khủng" của cựu Bí thư Tình uỷ Bến Tre.
+                    </lable>
+                    <div className="flex items-center gap-2 mt-1">
+                      <img className="h-4" src={reactLogo}></img>
+                      <lable className="text-xs">6 giờ</lable>
+                      <lable className="text-xs">20 liên quan</lable>
+                    </div>
+                  </div>
+                </div>
+                <div className="border border-metal border-opacity-15 h-0"></div>
+
+                <div className="flex items-center h-20 gap-2 ">
+                  <img className="h-full rounded" src={pictureSample1}></img>
+                  <div className="h-full">
+                    <lable className="text-warp text-sm">
+                      Kê biên, thu giữ bộ sưu tập đồng hồ xa xỉ và khối tài sản
+                      "khủng" của cựu Bí thư Tình uỷ Bến Tre.
+                    </lable>
+                    <div className="flex items-center gap-2 mt-1">
+                      <img className="h-4" src={reactLogo}></img>
+                      <lable className="text-xs">6 giờ</lable>
+                      <lable className="text-xs">20 liên quan</lable>
+                    </div>
+                  </div>
+                </div>
+                <div className="border border-metal border-opacity-15 h-0"></div>
+              </div>
+              <div className="mt-2">
+                <lable className="text-orangetext border-l-4 pl-2 text-lg">
+                  NĂNG LƯỢNG TÍCH CỰC
+                </lable>
+              </div>
+              {/* fourth article */}
+              <div className="flex h-64 my-2 ">
+                <div className="flex flex-col gap-2  w-56">
+                  <img className="h-20 rounded" src={pictureSample1}></img>
+                  <img className="h-20 rounded" src={pictureSample1}></img>
+                  <img
+                    className="h-20 rounded opacity-25"
+                    src={pictureSample1}
+                  ></img>
+                </div>
+                <div className="flex flex-col gap-2 ml-4">
+                  <div>
+                    <lable className="text-warp text-sm">
+                      Kê biên, thu giữ bộ sưu tập đồng hồ xa xỉ và khối tài sản
+                      "khủng" của cựu Bí thư Tình uỷ Bến Tre.
+                    </lable>
+                    <img className="h-4" src={reactLogo}></img>
+                  </div>
+                  <div className="border border-metal border-opacity-15 h-0"></div>
+                  <div>
+                    <lable className="text-warp text-sm">
+                      Kê biên, thu giữ bộ sưu tập đồng hồ xa xỉ và khối tài sản
+                      "khủng" của cựu Bí thư Tình uỷ Bến Tre.
+                    </lable>
+                    <img className="h-4" src={reactLogo}></img>
+                  </div>
+                  <div className="border border-metal border-opacity-15 h-0"></div>
+                  <div className="opacity-25">
+                    <lable className="text-warp text-sm">
+                      Kê biên, thu giữ bộ sưu tập đồng hồ xa xỉ và khối tài sản
+                      "khủng" của cựu Bí thư Tình uỷ Bến Tre.
+                    </lable>
+                    <img className="h-4" src={reactLogo}></img>
+                  </div>
+                </div>
+              </div>
+              {/* fifth article */}
+              <div className="flex flex-col gap-2">
+                <div className="border border-metal border-opacity-15 h-0"></div>
+                <div className="flex items-center h-20 gap-2 ">
+                  <img className="h-full rounded" src={pictureSample1}></img>
+                  <div className="h-full">
+                    <lable className="text-warp text-sm">
+                      Kê biên, thu giữ bộ sưu tập đồng hồ xa xỉ và khối tài sản
+                      "khủng" của cựu Bí thư Tình uỷ Bến Tre.
+                    </lable>
+                    <div className="flex items-center gap-2 mt-1">
+                      <img className="h-4" src={reactLogo}></img>
+                      <lable className="text-xs">6 giờ</lable>
+                      <lable className="text-xs">20 liên quan</lable>
+                    </div>
+                  </div>
+                </div>
+                <div className="border border-metal border-opacity-15 h-0"></div>
+
+                <div className="flex items-center h-20 gap-2 ">
+                  <img className="h-full rounded" src={pictureSample1}></img>
+                  <div className="h-full">
+                    <lable className="text-warp text-sm">
+                      Kê biên, thu giữ bộ sưu tập đồng hồ xa xỉ và khối tài sản
+                      "khủng" của cựu Bí thư Tình uỷ Bến Tre.
+                    </lable>
+                    <div className="flex items-center gap-2 mt-1">
+                      <img className="h-4" src={reactLogo}></img>
+                      <lable className="text-xs">6 giờ</lable>
+                      <lable className="text-xs">20 liên quan</lable>
+                    </div>
+                  </div>
+                </div>
+                <div className="border border-metal border-opacity-15 h-0"></div>
+
+                <div className="flex items-center h-20 gap-2 ">
+                  <img className="h-full rounded" src={pictureSample1}></img>
+                  <div className="h-full">
+                    <lable className="text-warp text-sm">
+                      Kê biên, thu giữ bộ sưu tập đồng hồ xa xỉ và khối tài sản
+                      "khủng" của cựu Bí thư Tình uỷ Bến Tre.
+                    </lable>
+                    <div className="flex items-center gap-2 mt-1">
+                      <img className="h-4" src={reactLogo}></img>
+                      <lable className="text-xs">6 giờ</lable>
+                      <lable className="text-xs">20 liên quan</lable>
+                    </div>
+                  </div>
+                </div>
+                <div className="border border-metal border-opacity-15 h-0"></div>
+              </div>
+            </div>
+            <div className="w-2/5 bg-midnight h-full"></div>
           </div>
         </div>
         <div>
